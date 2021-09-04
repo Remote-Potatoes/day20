@@ -1,0 +1,11 @@
+{{#if jokes}}
+	{{#each jokes}}
+	<a href="/joke/{{this.link}}">
+		<h2>{{this.joke}}</h2>
+	</a>
+	{{/each}}
+{{/if}}
+
+{{#if randomJoke}}
+	<h2>Random joke: {{randomJoke}}</h2>	
+{{/if}}

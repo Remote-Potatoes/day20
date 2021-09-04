@@ -1,0 +1,20 @@
+<form method="GET" action="/search">
+	<input placeholder="Where do you want to go?" name="location">
+	<br>
+	<input placeholder="How much do you want to spend?" name="money">
+	<br>
+	<select name="currency">
+<option>euros</option>
+<option>pounds</option>
+<option>dollars</option>
+	</select>
+	<button>Take me there</button>
+</form>
+
+
+{{#if location}}
+{{#if money}}
+
+<h2>Youre trying to go to {{location}} and you say you have {{money}} {{currency}} to spend</h2>
+{{/if}}
+{{/if}}
