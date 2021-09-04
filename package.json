@@ -1,0 +1,24 @@
+{
+  "name": "day20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Remote-Potatoes/day20.git"
+  },
+  "keywords": [],
+  "author": "André de Albuquerque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Remote-Potatoes/day20/issues"
+  },
+  "homepage": "https://github.com/Remote-Potatoes/day20#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  }
+}
